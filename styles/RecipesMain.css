@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+/* header styles */
+header {
+  color: white;
+  background: url(../Images/bg7.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  margin: 0;
+}
+
+header h2 {
+  font-family: 'Sofia', cursive;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0;
+}
+
+main {
+  font-family: 'Verdana', sans-serif;
+  background-color: white;
+  line-height: 1.8em;
+  color: #555;
+  padding: 1em;
+  border: double 4px #EADDC4;
+  border-radius: 25px;
+  margin: 2.5%;
+  max-width: 1200px;
+  margin: 2.5% auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 1rem 0;
+}
+
+.recipe {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.recipe:last-child {
+  border-bottom: none;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7A0002;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: black;
+  padding-left: 1em;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p.more {
+  font-family: 'Verdana', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  clear: left;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+a.recipe-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #7A0002;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a.recipe-link:hover {
+  background-color: #555;
+}
+
+footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+}
